@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/BaseLayout.astro';
+---
+
+<Layout>
+  <section class="bg-bg text-text py-20">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+
+      <!-- Logo Left -->
+      <div class="flex justify-center md:justify-start">
+        <img
+          src="/logo-dairyvista.png"
+          alt="DairyVista Logo"
+          class="w-20 h-auto drop-shadow-lg"
+        />
+      </div>
+
+      <!-- Text & CTA Right -->
+      <div class="text-center md:text-left">
+        <h1 class="text-4xl font-bold mb-4 text-primary">DairyVista ERP Platform</h1>
+        <p class="text-lg mb-6 text-text">
+          Streamline your dairy business from production to last-mile delivery. Smart, scalable ERP tailored for dairies.
+        </p>
+        <div class="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
+          <a href="#demo" class="bg-accent text-white px-6 py-3 rounded hover:bg-orange-700 transition">
+            Request a Demo
+          </a>
+          <a href="#pricing" class="border border-primary text-primary px-6 py-3 rounded hover:bg-primary hover:text-white transition">
+            See Pricing
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
